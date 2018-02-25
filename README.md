@@ -7,11 +7,18 @@
 
 ### Workflow
 Input has to be fasta file with at least to sequences.
-* Programm creates square matrix with dimensions equal to a number of sequences in the input file. 
-* It counts Levenstein distance between all sequences in pairs. More mismatches - bigger the score
-* Fills the matrix with distances
-* Result matrix is shown as a standart output. You can put it in a file via pipe 'Argparse.py | filename.txt'
-* If you set savehm argument than it creates heatmap (matplotlib) and saves it as HWA.pdf file in workind directory
+1. Programm creates square matrix with dimensions equal to a number of sequences in the input file. 
+2. It counts Levenstein distance between all sequences in pairs. More mismatches - bigger the score
+3. Fills the matrix with distances
+4. Result matrix is shown as a standart output. You can put it in a file via pipe 'Argparse.py | filename.txt'
+5. If you set savehm argument than it creates heatmap (matplotlib) and saves it as HWA.pdf file in workind directory
+
+### Required packages
+* matplotlib
+* numpy
+* biopython
+* itertools
+* argparse
 
 ### Example of an output
 * Distances matrix:

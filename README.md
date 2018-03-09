@@ -5,6 +5,10 @@
 -s --savehm Whether you need the heatmap to be saved to file\
 -i --inputfile Link to your marvellous input file
 
+### Usage example
+
+``` $ python Levenstein-distance-counter.py -i filename.fa -s```
+
 ### Workflow
 Input has to be fasta file with at least to sequences.
 1. Programm creates square matrix with dimensions equal to a number of sequences in the input file. 

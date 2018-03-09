@@ -7,7 +7,7 @@
 
 ### Usage example
 
-``` $ python Levenstein-distance-counter.py -i filename.fa -s```
+``` $ python3 Levenstein-distance-counter.py -i filename.fa -s```
 
 ### Workflow
 Input has to be fasta file with at least to sequences.
